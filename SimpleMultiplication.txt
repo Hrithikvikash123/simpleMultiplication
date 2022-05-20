@@ -1,0 +1,16 @@
+package com.company;
+import java.util.*;
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);  // take input from user
+
+        System.out.println(" Enter the two number :");
+        int a=sc.nextInt();                //  a is an integer type variable
+        int b=sc.nextInt();
+        int result=a*b;
+        System.out.println(result);
+
+
+    }
+}
